@@ -1,0 +1,6 @@
+build
+nim_webview_abi/*.zip
+*.bak
+nim_webview_abi/wrap
+tests/test1
+basic
