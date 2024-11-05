@@ -53,7 +53,6 @@ when (NimMajor, NimMinor) < (1, 4):
   {.pragma: wvdecl, cdecl, gcsafe, raises: [Defect].}
 else:
   {.pragma: wvdecl, cdecl, gcsafe, raises: [].}
-{.passC: "-Inim_webview_abi/webview/core/include".}
 defineEnum(webview_native_handle_kind_t) ## ```
                                          ##   / Native handle kind. The actual type depends on the backend.
                                          ## ```
